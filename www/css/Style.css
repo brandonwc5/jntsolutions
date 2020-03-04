@@ -8,10 +8,11 @@ h1{
 
 p{
     font-size: 45px;
+    width: 25%;
 }
 .container{
     position: relative;
-    background: url(../images/background.jpg) no-repeat 50% 50%;
+    background: url(images/background.jpg) no-repeat 50% 50%;
     background-size: cover;
     width: 100%;
 }
@@ -71,6 +72,7 @@ p{
     text-align: center;
     width: 157px;
     font-family: "Crimson Text", serif;
+    font-weight: bold;
     color: #122425;
     line-height: 40px;
     display: inline-block;
@@ -79,6 +81,7 @@ p{
     position: relative;
     letter-spacing: .42px;
     text-transform: uppercase;
+    border-radius: 3%
 }
 
 /* The animation code */
@@ -105,6 +108,22 @@ p{
 
     @media screen and (max-width: 780px) {
         .image{
-            width: 170%;
+            width: 900px;
+            background-image: url(images/background.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
         }
+        h1{
+            font-size: 50px;
+        }
+        .overlayTextContainer{
+            padding-top: 0px;        
+        }
+        p{
+            width: 75%;
+        }
+        .readMoreBtn{
+            margin-top: 40px;
+        }
+    }        
   }
