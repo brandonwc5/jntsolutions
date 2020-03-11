@@ -105,6 +105,7 @@ p{
     display: grid;
     grid-template-columns: auto
   auto;
+  width:100%;
 }
 
 .LogoText1{
@@ -150,6 +151,16 @@ p{
     }
   }
   
+  @media screen and (max-width: 550px) {
+    .LogoText1{
+        font-size: 60px;
+    }
+    .LogoText2{
+        font-size: 60px;
+    }
+  }
+  
+
   /* Landscape */
 @media only screen 
     and (min-device-width: 414px) 
