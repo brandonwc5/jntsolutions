@@ -12,6 +12,10 @@ h1{
     font-size: 85px;
 }
 
+h3{
+    width: 100%;
+}
+
 p{
     font-size: 45px;
     width: 25%;
@@ -55,7 +59,9 @@ p{
 }
 
 .overlayTextContainer{
-    display: block;
+    flex-direction: row;
+
+    display: flex;
     height: auto;
     position: absolute;
     bottom: 0;
@@ -100,6 +106,27 @@ p{
     border-radius: 3%
 }
 
+.contactFormArea{
+    display: inline;
+}
+
+input{
+    width:80%;
+    margin: 3px;
+}
+
+textarea{
+    width:80%;
+    margin:3px;
+    padding-bottom:50%;
+}
+
+button{
+    display:flex;
+    width:15%;
+    text-align: center;
+    margin-left:55px;
+}
 /* The animation code */
 @keyframes example {
     from {text-decoration-color: red;}
