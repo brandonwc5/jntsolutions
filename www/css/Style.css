@@ -100,6 +100,38 @@ p{
     border-radius: 3%
 }
 
+
+.LogoParent{
+    display: grid;
+    grid-template-columns: auto
+  auto;
+}
+
+.LogoText1{
+    color: #fff; 
+    font-family: 'Righteous', cursive; 
+    font-size: 120px; font-weight: normal; 
+    line-height: 60px; 
+    margin: 10px 0 20px; 
+    text-transform: uppercase; 
+    text-shadow: 2px 2px 0 #000;
+    margin: 10px 0 24px; 
+    text-align: right;
+}
+
+.LogoText2{
+    font-size: 120px; 
+    letter-spacing: -1px; 
+    color: #DFBF84; 
+    text-transform: 
+    uppercase; 
+    text-shadow: 2x 2px 0 #000;
+    margin: 10px 0 24px; 
+    text-align: center; 
+    line-height: 50px;
+    text-align: left;
+}
+
 /* The animation code */
 @keyframes example {
     from {text-decoration-color: red;}
