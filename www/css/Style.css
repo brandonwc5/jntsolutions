@@ -149,14 +149,20 @@ p{
     .overlay{
         font-size: 30px;
     }
+    .LogoText1{
+        font-size: 75px;
+    }
+    .LogoText2{
+        font-size: 75px;
+    }
   }
   
   @media screen and (max-width: 550px) {
     .LogoText1{
-        font-size: 60px;
+        font-size: 75px;
     }
     .LogoText2{
-        font-size: 60px;
+        font-size: 75px;
     }
   }
   
